@@ -1,5 +1,7 @@
 # CommandFusion iViewer + Siri = Home Automation Voice Control
 
+[WATCH THE VIDEO - CLICK HERE](http://cmdf.us/cfsiri1)
+
 This is an example of using Siri speech-to-text dictation alongside CommandFusion iViewer to control any Ethernet device via voice commands.
 
 The example makes use of the [CommandFusion JavaScript API](http://www.commandfusion.com/docs/scripting/index.html) to process dictated speech in text form in order to perform actions.  
