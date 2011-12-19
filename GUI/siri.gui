@@ -1,0 +1,120 @@
+<gui>
+  <properties>
+    <project>relaunch</project>
+    <designer>
+    </designer>
+    <size>
+      <portrait width="320" height="480" />
+      <landscape width="480" height="320" />
+    </size>
+    <controlsystem connectionStatus="9" disconnectionStatus="10" offlinequeue="1">
+      <hostname>192.168.0.10</hostname>
+      <commandPort>8020</commandPort>
+    </controlsystem>
+    <imagefolder>
+    </imagefolder>
+    <debug loaderrors="0" connectionerrors="0" />
+    <devices>
+      <device name="Jarrod's iPhone">693CBC248292EB74D39DF7B0415B25CA</device>
+      <device name="Jarrod's iTouch">A1FDD44DB1F7CCDAA389BD22C9A92466</device>
+      <device name="Jarrod's iPhone 3G">3D0F1EA73558BA41AAE0105C51EDB533</device>
+      <device name="CommandFusion iTouch 3rd Gen">9C9309EA6867A4C87FEB1BC0E8A1A20C</device>
+      <device name="CommandFusion iPad">7FA41088AB80BA09CF10FA579B95C51C</device>
+      <device name="Lisa's iPhone">0D19F0E73C0A5334F0E468234AFEA2BB</device>
+      <device name="SP iPad">F9D64E2B02DC5FA0AE220B3D20A66115</device>
+      <device name="GuiLink iPad">7AE2743F5FB3D11EDAA5A6A2A6A90C04</device>
+      <device name="RFC iPad">B6F88BE7D54D6E8A10EB726C3655FF84</device>
+      <device name="Development iPad #2">F23E70BC8C90C29C94610D9B35F95A88</device>
+      <device name="CommandFusion iPhone 4">5AE0AE1AD7C838CFAE3BA26D23ED0712</device>
+      <device name="CommandFusion Archos5">D5652759DCC69DEC2503149E48959E55</device>
+      <device name="CommandFusion Black iPad2">4A10D1837F75AF1FC608D8C964A47900</device>
+      <device name="CommandFusion White iPad2">A65B95A392D915326B24CC37C7A88537</device>
+      <device name="SP iPad2 Black 64GB">1A8373FA3DDA092446A6BF489B67828E</device>
+      <device name="CommandFusion iPhone4S 16GB White">1AA37565C0BFC23BBBF9D7AB2B8156E4</device>
+    </devices>
+  </properties>
+  <systems>
+    <system name="Loopback" ip="127.0.0.1" port="10210" protocol="tcp" alwayson="1" offlinequeue="0" accept="0" acceptBroadcasts="0" ssl="0" maxconnections="0" heartbeatRx="" heartbeatTx="" heartbeatMode="-1" eom="" connectionStatus="0" disconnectionStatus="0" startupCmd="SetupCrosshair">
+      <cmd name="SetupCrosshair" js="CF.getJoin(CF.GlobalTokensJoin, function(j,v,t){CF.setProperties({join:&quot;s5&quot;, opacity: parseInt(t[&quot;crosshair&quot;],10)}); CF.setJoin(&quot;d2&quot;,  parseInt(t[&quot;crosshair&quot;],10));});" jsSendsCommand="True" />
+    </system>
+    <system name="Dynalite" ip="192.168.0.40" port="10201" protocol="udp" alwayson="1" offlinequeue="0" accept="0" acceptBroadcasts="0" ssl="0" maxconnections="0" heartbeatRx="" heartbeatTx="" heartbeatMode="-1" eom="" connectionStatus="0" disconnectionStatus="0" />
+  </systems>
+  <themes>
+    <theme type="background" name=".portrait"><![CDATA[ background-image: url(bg_portrait.png); background-repeat: no-repeat;]]></theme>
+    <theme type="text" name=".text_c"><![CDATA[ text-shadow: rgba(0,0,0,1) 0px -1px 0px; color: Silver; font-size: 16px; font-family: 'Arial'; text-align: center; vertical-align: middle; font-weight: bold; font-style: none; text-decoration: none; display: table-cell;]]></theme>
+    <theme type="button" name=".top_btn_single[state='0']"><![CDATA[padding: 0px 21px 0px 21px; -webkit-border-image: url(top_btn_single_off.png) 0 21 0 21; color: White; font-size: 12px; font-family: 'Verdana'; font-weight: normal; font-style: none; text-decoration: none; text-align: center; vertical-align: middle; display: table-cell; box-sizing: border-box; -webkit-box-sizing: border-box; -webkit-tap-highlight-color:rgba(0,0,0,0);]]></theme>
+    <theme type="button" name=".top_btn_single[state='1']"><![CDATA[padding: 0px 21px 0px 21px; -webkit-border-image: url(top_btn_single_on.png) 0 21 0 21; color: #80FFFF; font-size: 12px; font-family: 'Verdana'; font-weight: normal; font-style: none; text-decoration: none; text-align: center; vertical-align: middle; display: table-cell; box-sizing: border-box; -webkit-box-sizing: border-box; -webkit-tap-highlight-color:rgba(0,0,0,0);]]></theme>
+    <theme type="input" name=".white"><![CDATA[ background-color: White; border-width: 0px; color: Black; font-size: 12px; font-family: 'Arial'; text-align: left; vertical-align: middle; font-weight: bold; font-style: none; text-decoration: none; display: table-cell;]]></theme>
+    <theme type="text" name=".text_l"><![CDATA[ text-shadow: rgba(0,0,0,1) 0px -1px 0px; color: Silver; font-size: 16px; font-family: 'Arial'; text-align: left; vertical-align: middle; font-weight: bold; font-style: none; text-decoration: none; display: table-cell;]]></theme>
+    <theme type="gauge" name=".vertical[state='0']"><![CDATA[ background-image: url(gauge_v.png);]]></theme>
+    <theme type="gauge" name=".vertical[state='1']"><![CDATA[]]></theme>
+    <theme type="gauge" name=".horizontal[state='0']"><![CDATA[ background-image: url(gauge_h.png);]]></theme>
+    <theme type="gauge" name=".horizontal[state='1']"><![CDATA[]]></theme>
+    <theme type="text" name=".indicator"><![CDATA[ color: Black; font-size: 16px; font-family: 'Arial'; text-align: center; vertical-align: middle; font-weight: bold; font-style: none; text-decoration: none; display: table-cell;]]></theme>
+    <theme type="button" name=".switch[state='0']"><![CDATA[padding: 0px 0px 0px 0px; background-image: url(switch_off.png); color: White; font-size: 12px; font-family: 'Verdana'; font-weight: normal; font-style: none; text-decoration: none; text-align: center; vertical-align: middle; display: table-cell; box-sizing: border-box; -webkit-box-sizing: border-box; -webkit-tap-highlight-color:rgba(0,0,0,0);]]></theme>
+    <theme type="button" name=".switch[state='1']"><![CDATA[padding: 0px 0px 0px 0px; background-image: url(switch_on.png); color: White; font-size: 12px; font-family: 'Verdana'; font-weight: normal; font-style: none; text-decoration: none; text-align: center; vertical-align: middle; display: table-cell; box-sizing: border-box; -webkit-box-sizing: border-box; -webkit-tap-highlight-color:rgba(0,0,0,0);]]></theme>
+    <theme type="background" name=".landscape_grid"><![CDATA[ background-image: url(bg_landscape_grid.png); background-repeat: no-repeat;]]></theme>
+    <theme type="gauge" name=".blank[state='0']"><![CDATA[]]></theme>
+    <theme type="gauge" name=".blank[state='1']"><![CDATA[]]></theme>
+    <theme type="text" name=".msg_l"><![CDATA[ text-shadow: rgba(0,0,0,1) 0px 1px 0px; color: White; font-size: 16px; font-family: 'Arial'; text-align: left; vertical-align: middle; font-weight: normal; font-style: none; text-decoration: none; display: table-cell;]]></theme>
+    <theme type="input" name=".invisible"><![CDATA[ border-width: 0px; color: White; font-size: 12px; font-family: 'Arial'; text-align: left; vertical-align: middle; font-weight: bold; font-style: none; text-decoration: none; display: table-cell;]]></theme>
+    <theme type="text" name=".time"><![CDATA[ text-shadow: rgba(0,0,0,1) 0px -1px 0px; color: Silver; font-size: 10px; font-family: 'Arial'; text-align: right; vertical-align: top; font-weight: normal; font-style: none; text-decoration: none; display: table-cell;]]></theme>
+    <theme type="text" name=".msg_unmatched"><![CDATA[ text-shadow: rgba(0,0,0,1) 0px -1px 0px; color: #6F6F6F; font-size: 16px; font-family: 'Arial'; text-align: center; vertical-align: middle; font-weight: bold; font-style: none; text-decoration: none; display: table-cell;]]></theme>
+    <theme type="text" name=".text_r"><![CDATA[ text-shadow: rgba(0,0,0,1) 0px 1px 0px; color: White; font-size: 16px; font-family: 'Arial'; text-align: right; vertical-align: middle; font-weight: bold; font-style: none; text-decoration: none; display: table-cell;]]></theme>
+  </themes>
+  <tokens>
+    <token name="crosshair" value="1" persist="1" />
+  </tokens>
+  <scripts>
+    <script name="siri.js" />
+    <script name="dynalite.js" />
+  </scripts>
+  <page name="Startup" j="0" transition="None" subtype="None" time="0" ease="">
+    <portrait t="portrait">
+      <input j="0" s="10" x="44" y="0" w="237" h="43" pass="0" autoFocus="0" f="0" t="invisible" l="0">
+      </input>
+      <list j="1" x="0" y="44" w="320" h="375" headerSub="" titleSub="" contentSub="siri_item" footerSub="" orientation="v" l="0" swipedelete="0" />
+      <img x="0" y="0" w="320" h="480" j="0" clickthrough="1" refresh="0" l="0" noCache="0" downloadIndicator="0" clearOnURLChange="0">bg_overlay.png</img>
+      <img x="138" y="0" w="44" h="44" j="0" clickthrough="1" refresh="0" l="0" noCache="0" downloadIndicator="0" clearOnURLChange="0">siri_icon.png</img>
+      <img x="0" y="0" w="320" h="22" j="0" clickthrough="1" refresh="0" l="0" noCache="0" downloadIndicator="0" clearOnURLChange="0">shine.png</img>
+    </portrait>
+    <landscape t="landscape_grid">
+      <btn j="21" x="145" y="24" w="94" h="27" t="switch" flip="None" sim="2" l="0" s="1" js="CF.getJoin(join, function(j,v){if (v == 1) {Dynalite.channelOn(1,1,1);} else {Dynalite.channelOff(1,1,1);}});">
+        <inactive s="0">
+        </inactive>
+        <active s="0">
+        </active>
+      </btn>
+      <txt j="0" x="21" y="17" w="112" h="41" t="text_r" wrap="False" l="0">Light 1:</txt>
+      <btn j="22" x="145" y="64" w="94" h="27" t="switch" flip="None" sim="2" l="0" s="1" js="CF.getJoin(join, function(j,v){if (v == 1) {Dynalite.channelOn(1,3,1);} else {Dynalite.channelOff(1,3,1);}});">
+        <inactive s="0">
+        </inactive>
+        <active s="0">
+        </active>
+      </btn>
+      <txt j="0" x="21" y="57" w="112" h="41" t="text_r" wrap="False" l="0">Light 2:</txt>
+      <btn j="23" x="145" y="104" w="94" h="27" t="switch" flip="None" sim="2" l="0" s="1" js="CF.getJoin(join, function(j,v){if (v == 1) {Dynalite.channelOn(1,2,1);} else {Dynalite.channelOff(1,2,1);}});">
+        <inactive s="0">
+        </inactive>
+        <active s="0">
+        </active>
+      </btn>
+      <txt j="0" x="21" y="97" w="112" h="41" t="text_r" wrap="False" l="0">Light 3:</txt>
+    </landscape>
+  </page>
+  <subpage name="siri_item" w="320" h="40" clip="1">
+    <img x="4" y="3" w="312" h="37" j="0" clickthrough="1" refresh="0" l="0" noCache="0" downloadIndicator="0" clearOnURLChange="0">msg_bg.png</img>
+    <txt j="2" x="57" y="4" w="263" h="32" t="msg_l" wrap="False" l="0">Message Contents</txt>
+    <img x="15" y="3" w="34" h="37" j="1" clickthrough="1" refresh="0" l="0" noCache="0" downloadIndicator="0" clearOnURLChange="0">light.png</img>
+    <txt j="3" x="228" y="6" w="81" h="14" t="time" wrap="False" l="0">00:00:00</txt>
+  </subpage>
+  <subpage name="Cache" w="320" h="480" clip="1">
+    <img x="0" y="0" w="34" h="37" j="0" clickthrough="0" refresh="0" l="0" noCache="0" downloadIndicator="0" clearOnURLChange="0">light.png</img>
+    <img x="38" y="0" w="34" h="37" j="0" clickthrough="0" refresh="0" l="0" noCache="0" downloadIndicator="0" clearOnURLChange="0">security.png</img>
+    <img x="75" y="0" w="34" h="37" j="0" clickthrough="0" refresh="0" l="0" noCache="0" downloadIndicator="0" clearOnURLChange="0">tv.png</img>
+  </subpage>
+  <subpage name="siri_item_unmatched" w="320" h="40" clip="1">
+    <txt j="1" x="0" y="0" w="320" h="40" t="msg_unmatched" wrap="False" l="0">Unknown:</txt>
+    <txt j="2" x="228" y="6" w="81" h="14" t="time" wrap="False" l="0">00:00:00</txt>
+  </subpage>
+</gui>
